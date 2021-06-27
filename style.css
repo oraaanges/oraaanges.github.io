@@ -2,21 +2,21 @@
     margin: 0;
     padding: 0;
 }
-body.home-bg {
+body.home-main {
     background-image: url('https://imgur.com/NMsRDh3.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
-body.about-bg {
+body.about-main {
     background-image: url('https://imgur.com/Js6oSsF.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
-body.socials-bg {
+body.socials-main {
     background-image: url('https://imgur.com/gTPdECb.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -87,7 +87,33 @@ nav ul li ul li a:hover{
     background-color: rgba(0,0,0,0.2);
 }
 
-section {
+.about {
+    background-color: rgba(0,0,0,0.5);
+    margin-top: 80px;
+    max-width: 580px;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    overflow-y: auto;
+    line-height: 30px;
+}
+
+.about h1 {
+    font-family: verdana;
+    font-size: 24px;
+    color: #FF9600;
+    line-height: 50px;
+}
+
+.about p {
+    font-family: helvetica;
+    font-size: 20px;
+    color: #e3e3e3;
+}
+
+.socials {
     background-color: rgba(0,0,0,0.5);
     margin-top: 80px;
     max-width: 580px;
@@ -100,21 +126,21 @@ section {
     line-height: 50px;
 }
 
-section img {
+.socials img {
     width: 28px;
     height: 28px;
     padding-right: 6px;
     padding-top: 2px;
 }
 
-section a {
+.socials a {
     text-decoration: none;
     font-family: verdana;
     font-size: 32px;
     color: white;
 }
 
-section p {
+.socials p {
     font-family: helvetica;
     font-size: 24px;
     color: #e3e3e3;
@@ -124,5 +150,6 @@ footer p {
     position: absolute;
     padding: 5px;
     color: #F3F3F3;
+    font-family: helvetica;
     bottom: 0;
 }
