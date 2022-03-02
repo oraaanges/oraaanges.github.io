@@ -1,7 +1,10 @@
+/* STYLESHEET */
 * {
     margin: 0;
     padding: 0;
 }
+
+/* BACKGROUNDS */
 body.home-main {
     background-image: url('https://imgur.com/NMsRDh3.jpg');
     background-repeat: no-repeat;
@@ -9,22 +12,17 @@ body.home-main {
     background-size: cover;
 }
 
-body.about-main {
-    background-image: url('https://imgur.com/Js6oSsF.jpg');
+body.skins-main {
+    background-image: url('https://imgur.com/NMsRDh3.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
-body.socials-main {
-    background-image: url('https://imgur.com/gTPdECb.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
+/* NAVIGATION BAR */
 nav {
-    width: 100%;
+    max-width: 100%;
+    min-width: 1000px;
     height: 61px;
     background-color: rgba(0,0,0,0.5);
 }
@@ -50,7 +48,7 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    font-family: helvetica;
+    font-family: arial;
     color: #e3e3e3;
     font-size: 14px;
     padding: 22px 14px;
@@ -61,95 +59,10 @@ nav ul li a:hover {
     color: white;
 }
 
-nav ul li ul {
-    display: none;
-    position: absolute;
-    background-color: rgba(0,0,0,0.5);
-    padding: 5px;
-    border-radius: 0px 0px 4px 4px;
-}
-
-nav ul li:hover ul {
-    display: block;
-}
-
-nav ul li ul li {
-    width: 88px;
-    border-radius: 4px;
-}
-
-nav ul li ul li a{
-    padding: 8px 14px;
-    width: 60px;
-}
-
-nav ul li ul li a:hover{
-    background-color: rgba(0,0,0,0.2);
-}
-
-.about {
-    background-color: rgba(0,0,0,0.5);
-    margin-top: 80px;
-    max-width: 580px;
-    border-radius: 12px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding: 10px;
-    overflow-y: auto;
-    line-height: 30px;
-}
-
-.about h1 {
+/* SKIN LISTING */
+div.skin-list {
     font-family: verdana;
-    font-size: 24px;
-    color: #FF9600;
-    line-height: 50px;
-}
-
-.about p {
-    font-family: helvetica;
-    font-size: 20px;
-    color: #e3e3e3;
-}
-
-.socials {
-    background-color: rgba(0,0,0,0.5);
-    margin-top: 80px;
-    max-width: 580px;
-    border-radius: 12px;
-    margin-left: auto;
-    margin-right: auto;
+    color: black;
     text-align: center;
-    padding: 10px;
-    overflow-y: auto;
-    line-height: 50px;
-}
-
-.socials img {
-    width: 28px;
-    height: 28px;
-    padding-right: 6px;
-    padding-top: 2px;
-}
-
-.socials a {
-    text-decoration: none;
-    font-family: verdana;
-    font-size: 32px;
-    color: white;
-}
-
-.socials p {
-    font-family: helvetica;
-    font-size: 24px;
-    color: #e3e3e3;
-}
-
-footer p {
-    position: absolute;
-    padding: 5px;
-    color: #F3F3F3;
-    font-family: helvetica;
-    bottom: 0;
+    padding-top: 100px;
 }
