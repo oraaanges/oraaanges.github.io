@@ -6,14 +6,15 @@
 
 /* BACKGROUNDS */
 body.home-main {
-    background-image: url('https://imgur.com/NMsRDh3.jpg');
+    background-color: #F6E3BA;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    /*background-position: center;*/
     background-size: cover;
 }
 
 body.skins-main {
-    background-image: url('https://imgur.com/NMsRDh3.jpg');
+    background-color: #F6E3BA;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -38,6 +39,9 @@ nav p {
 
 nav ul {
     float: left;
+    padding-right: 30px;
+    list-style: none;
+    position: relative;
 }
 
 nav ul li {
@@ -48,19 +52,38 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    font-family: arial;
     color: #e3e3e3;
-    font-size: 14px;
-    padding: 22px 14px;
-    text-decoration: none;
+    font-size: 20px;
+    padding: 18px 12px;
 }
 
-nav ul li a:hover {
-    color: white;
+nav ul li:nth-child(1) a:hover {
+    color: #FF9600;
 }
+
+nav ul li:nth-child(2) a:hover {
+    color: #50C878;
+}
+
+nav ul li:nth-child(3) a:hover {
+    color: #FF66AA;
+}
+
+nav ul li:nth-child(4) a:hover {
+    color: #1DA1F2;
+}
+
+nav ul li:nth-child(5) a:hover {
+    color: #6441A5;
+}
+
+nav ul li:nth-child(6) a:hover {
+    color: #FF0000;
+}
+
 
 /* SKIN LISTING */
-div.skin-list {
+.skin-list {
     font-family: verdana;
     color: black;
     text-align: center;
