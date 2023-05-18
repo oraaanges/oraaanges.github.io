@@ -4,23 +4,24 @@
     padding: 0;
 }
 
-/* BACKGROUNDS */
+
+/******** BACKGROUNDS ********/
 body.home-main {
-    background-color: #F6E3BA;
+    background-color: #36454F;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /*background-position: center;*/
     background-size: cover;
 }
 
 body.skins-main {
-    background-color: #F6E3BA;
+    background-color: #36454F;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
-/* NAVIGATION BAR */
+
+/******** NAVIGATION BAR ********/
 nav {
     max-width: 100%;
     min-width: 1000px;
@@ -57,6 +58,7 @@ nav ul li a {
     padding: 18px 12px;
 }
 
+/* NAV HOVER COLORS */
 nav ul li:nth-child(1) a:hover {
     color: #FF9600;
 }
@@ -81,11 +83,24 @@ nav ul li:nth-child(6) a:hover {
     color: #FF0000;
 }
 
+/* HOME PAGE STYLING */
+
 
 /* SKIN LISTING */
-.skin-list {
+p.title {
     font-family: verdana;
-    color: black;
+    color: white;
+    text-align: center; 
+    padding: 50px;
+}
+
+.skins {
+    display: block;
     text-align: center;
-    padding-top: 100px;
+}
+
+.skin-list {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
